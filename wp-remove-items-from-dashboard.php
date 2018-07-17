@@ -4,7 +4,7 @@ function mm_remove_dashboard_menu_items() {
     remove_menu_page( 'upload.php' );                 //Media
     remove_menu_page( 'edit-comments.php' );          //Comments
     remove_menu_page( 'themes.php' );                 //Appearance
-    remove_menu_page( 'profile.php' );                 //Appearance
+    remove_menu_page( 'profile.php' );                 //Profile
     remove_menu_page( 'edit.php?post_type=page' );    //Pages
 
     if ( mm_restrictly_get_current_user_role() !== 'administrator' ) {
